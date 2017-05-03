@@ -13,10 +13,10 @@
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav nav-pills">
-        <li role="presentation" class="active"><a routerLink="" href="#">Home</a></li>
-        <li role="presentation"><a routerLink="messages" href="#">Messages</a></li>
-        <li role="presentation"><a routerLink="photos" href="#">Photos</a></li>
+      <ul class="nav navbar-nav">
+        <li role="presentation" routerLinkActive="active"><a routerLink="home" href="#">Home</a></li>
+        <li role="presentation" routerLinkActive="active"><a routerLink="messages" href="#">Messages</a></li>
+        <li role="presentation" routerLinkActive="active"><a routerLink="photos" href="#">Photos</a></li>
       </ul>
     </div>
   </div>
@@ -26,5 +26,6 @@
   <h1>
     {{title}}
   </h1>
+  <button class="btn btn-primary" >dfsdfdfdfdf</button>
   <router-outlet></router-outlet>
 </div>
